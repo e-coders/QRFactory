@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+    <link rel="stylesheet" href="src/style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div id="en">
+            <h1 class="heading">Generate a QR Code in minutes!</h1>
+            <input type="text" name="text" id="value" value="https://google.com" placeholder="Enter text to encode">
+            <button id="encode">Generate</button>
+            <div id="qrcode"></div>
+        </div>
+    </div>
+
+    <script src="src/factory.js"></script>
+</body>
+</html>

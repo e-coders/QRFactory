@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,300italic,400,400italic,500);
+@import url(reset.css);
+
+body, html{
+  padding:0;
+  margin:0;
+  font:300 18px/1.5 Roboto, "Helvetica Neue", Arial, sans-serif;
+  background:#fff;
+  color:#201f1f;
+}
+body{
+  border-top:5px solid #42B6F3;
+  padding:50px 0;
+}
+
+.container{
+  max-width:600px;
+  margin:0 auto;
+  padding:0 20px;
+}
+
+@media print, screen and (max-width: 420px) {
+  body{
+    font-size:16px;
+    padding:20px 0;
+  }
+}
+.heading{
+    font-size:25px
+}
+input[type=text]{
+    font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+    padding:4px;
+    border: 2px solid #42B6F3;
+    border-radius:4px;
+    transition: 0.48s;
+}
